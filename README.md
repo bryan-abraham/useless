@@ -54,29 +54,30 @@ python app.py
 ![Screenshot1]()
 <img width="1277" alt="1" src="https://github.com/user-attachments/assets/5f77ff74-8dff-4427-86c7-ccfaf065f131">
 
-*Add caption explaining what this shows*
+*screenshot showing the chatbot answer a question*
 
 ![Screenshot2]()
 <img width="1275" alt="2" src="https://github.com/user-attachments/assets/076acf18-428c-42d1-8ed2-8a931a2f6681">
 
-*Add caption explaining what this shows*
+*screenshot showing the chatbot answer a question*
 
 ![Screenshot3]()
 <img width="1280" alt="3" src="https://github.com/user-attachments/assets/286780dd-0ccf-4d9d-9157-63e4d6a9f811">
 
-*Add caption explaining what this shows*
+*screenshot showing the chatbot answer a question*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![Workflow]
+<img width="410" alt="flowchart" src="https://github.com/user-attachments/assets/22470b49-58d3-4aa1-9882-642b0f52d428">
+
+*chatbot workflow diagram*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/drive/folders/1irmQefIf9adwhd7UFWHyfXWy0xlwu6fw?usp=sharing
+*The video shows the AI assistant answer multiple questions based on the users prompts*
 
 # Additional Demos
-[Add any extra demo materials/links]
 graph TD
     A[User Input] --> B[Flask Backend]
     B --> C{Random Choice}
