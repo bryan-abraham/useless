@@ -51,13 +51,19 @@ export TOGETHER_API_KEY='e7a501a28a46881b3559d8599dd96cf6bb100fe303fc4cfa67f02c0
 python app.py
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1]()
+<img width="1277" alt="1" src="https://github.com/user-attachments/assets/5f77ff74-8dff-4427-86c7-ccfaf065f131">
+
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2]()
+<img width="1275" alt="2" src="https://github.com/user-attachments/assets/076acf18-428c-42d1-8ed2-8a931a2f6681">
+
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3]()
+<img width="1280" alt="3" src="https://github.com/user-attachments/assets/286780dd-0ccf-4d9d-9157-63e4d6a9f811">
+
 *Add caption explaining what this shows*
 
 # Diagrams
