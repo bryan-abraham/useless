@@ -1,49 +1,54 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# USEFUL.ai 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Algo Avengers
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Bryan Abraham- TIST
+- Member 2: Akhil PS - TIST
 
 ### Project Description
-[2-3 lines about what your project does]
+AI Answer Generator is a hilarious web application that takes your questions and responds with either completely unrelated advice or savage roasts! It's the perfect tool for when you need a laugh or want to be reminded that your questions might not be as brilliant as you think they are.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People are getting way too many relevant and serious answers to their questions these days. The world is suffering from an epidemic of useful responses! Where's the fun in that?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Enter the AI Answer Generator - a revolutionary tool that ensures you never get a straightforward answer to your questions again! It either provides completely unrelated advice or roasts you for asking in the first place. It's like having a sarcastic friend who never actually helps but always keeps you entertained!
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+Python 3.10\
+Flask Framework\
+Together AI API\
+Meta-Llama 3.1 8B Instruct Turbo model\
+HTML/CSS for frontend\
+JavaScript for interactive features
+
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+git clone [https://github.com/bryan-abraham/useless.git]
+
+# Install required packages
+pip install flask together
+
+# Set up your Together API key
+export TOGETHER_API_KEY='e7a501a28a46881b3559d8599dd96cf6bb100fe303fc4cfa67f02c023b193d41'
 
 # Run
 [commands]
 
 ### Project Documentation
-For Software:
+#### For Software:
+python app.py
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
@@ -59,25 +64,6 @@ For Software:
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
 ### Project Demo
 # Video
 [Add your demo video link here]
@@ -85,11 +71,24 @@ For Hardware:
 
 # Additional Demos
 [Add any extra demo materials/links]
+graph TD
+    A[User Input] --> B[Flask Backend]
+    B --> C{Random Choice}
+    C -->|Option 1| D[Generate Unrelated Advice]
+    C -->|Option 2| E[Generate Roast]
+    D --> F[Return Response]
+    E --> F
+    F --> G[Display to User]
+
+## Future Improvements (that nobody needs)
+Add more random response types
+Integrate multiple AI models for even more unpredictable responses\
+Add a "seriousness" slider that does absolutely nothing\
+Implementation of voice responses that deliberately mispronounce everything
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+Bryan: Project architecture, Flask backend implementation\
+Akhil: Frontend development, API integration
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
