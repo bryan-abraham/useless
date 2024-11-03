@@ -35,7 +35,7 @@ JavaScript for interactive features
 ### Implementation
 For Software:
 # Installation
-git clone [https://github.com/bryan-abraham/useless.git]
+git clone https://github.com/bryan-abraham/useless.git
 
 # Install required packages
 pip install flask together
@@ -67,25 +67,16 @@ python app.py
 *screenshot showing the chatbot answer a question*
 
 # Diagrams
-![Workflow]
 <img width="410" alt="flowchart" src="https://github.com/user-attachments/assets/22470b49-58d3-4aa1-9882-642b0f52d428">
 
 *chatbot workflow diagram*
 
 ### Project Demo
 # Video
-https://drive.google.com/drive/folders/1irmQefIf9adwhd7UFWHyfXWy0xlwu6fw?usp=sharing
+https://drive.google.com/drive/folders/1irmQefIf9adwhd7UFWHyfXWy0xlwu6fw?usp=sharing/
 *The video shows the AI assistant answer multiple questions based on the users prompts*
 
 # Additional Demos
-graph TD
-    A[User Input] --> B[Flask Backend]
-    B --> C{Random Choice}
-    C -->|Option 1| D[Generate Unrelated Advice]
-    C -->|Option 2| E[Generate Roast]
-    D --> F[Return Response]
-    E --> F
-    F --> G[Display to User]
 
 ## Future Improvements (that nobody needs)
 Add more random response types
