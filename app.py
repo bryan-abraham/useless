@@ -1,10 +1,12 @@
 from flask import Flask, render_template, jsonify, request
 from together import Together
 import random
+import os
 
 app = Flask(__name__)
 
-client = Together(api_key='e7a501a28a46881b3559d8599dd96cf6bb100fe303fc4cfa67f02c023b193d41')
+api_key = os.getenv('TOGETHER_API_KEY')
+client = Together(api_key=api_key)
 
 
 @app.route('/')
