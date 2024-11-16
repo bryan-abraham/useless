@@ -35,7 +35,7 @@ JavaScript for interactive features
 ### Implementation
 For Software:
 # Installation
-git clone [https://github.com/bryan-abraham/useless.git]
+git clone https://github.com/bryan-abraham/useless.git
 
 # Install required packages
 pip install flask together
@@ -51,34 +51,32 @@ export TOGETHER_API_KEY='e7a501a28a46881b3559d8599dd96cf6bb100fe303fc4cfa67f02c0
 python app.py
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1]()
+<img width="1277" alt="1" src="https://github.com/user-attachments/assets/5f77ff74-8dff-4427-86c7-ccfaf065f131">
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*screenshot showing the chatbot answer a question*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2]()
+<img width="1275" alt="2" src="https://github.com/user-attachments/assets/076acf18-428c-42d1-8ed2-8a931a2f6681">
+
+*screenshot showing the chatbot answer a question*
+
+![Screenshot3]()
+<img width="1280" alt="3" src="https://github.com/user-attachments/assets/286780dd-0ccf-4d9d-9157-63e4d6a9f811">
+
+*screenshot showing the chatbot answer a question*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="410" alt="flowchart" src="https://github.com/user-attachments/assets/22470b49-58d3-4aa1-9882-642b0f52d428">
+
+*chatbot workflow diagram*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/drive/folders/1irmQefIf9adwhd7UFWHyfXWy0xlwu6fw?usp=sharing/
+*The video shows the AI assistant answer multiple questions based on the users prompts*
 
 # Additional Demos
-[Add any extra demo materials/links]
-graph TD
-    A[User Input] --> B[Flask Backend]
-    B --> C{Random Choice}
-    C -->|Option 1| D[Generate Unrelated Advice]
-    C -->|Option 2| E[Generate Roast]
-    D --> F[Return Response]
-    E --> F
-    F --> G[Display to User]
 
 ## Future Improvements (that nobody needs)
 Add more random response types
