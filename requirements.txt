@@ -1,0 +1,2 @@
+Flask==2.3.3
+together==0.0.7
